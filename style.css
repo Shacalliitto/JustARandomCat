@@ -3,12 +3,12 @@ body {
   padding: 20px 0;
   margin: 0;
   font-family: Roboto, sans-serif;
-  background: #1f1f1f;
+  background: #1d1d1d;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100vw;
   height: 100vh;
 }
@@ -22,7 +22,7 @@ div{
 a {
   color: inherit;
   text-decoration: none;
-  background: tomato;
+  background: rgb(25, 108, 156);
   padding: 24px 48px;
   border-radius: 16px;
   font-size: 32px;
@@ -32,6 +32,7 @@ img{
     width: 60%;
     max-width: 700px;
     max-height: 600px;
+    border-radius: 26px;
 }
 
 * {
@@ -45,16 +46,16 @@ img{
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: tomato;
+    background-color: rgb(78, 161, 209);
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px rgb(155, 59, 42);
+    box-shadow: 0 9px rgba(25, 108, 156, 0.534);
   }
   
-  .button:hover {background-color: tomato}
+  .button:hover {background-color: rgb(49, 102, 133)}
   
   .button:active {
-    background-color: rgb(199, 78, 57);
-    box-shadow: 0 5px rgb(155, 59, 42);
+    background-color: rgb(49, 102, 133);
+    box-shadow: 0 5px rgba(25, 108, 156, 0.534);
     transform: translateY(4px);
   }
